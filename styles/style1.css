@@ -1,0 +1,16 @@
+/* Ma jolie feuille de style. */ body {
+color:#000000;
+background-color:#CECECE;
+background-image:url(../img/paysge.png);
+background-repeat:no-repeat;
+background-position:center bottom;
+}
+.white-right-aligned {color: white; text-align: right;}
+div.mybox {
+background-color: gray;
+border: 2px solid #ff017d; padding: 1px; color:yellow;
+}
+div.mybox2 {
+width:200px; height:200px; }
+input:invalid {border:1px solid red}
+input:valid {border:1px solid green}

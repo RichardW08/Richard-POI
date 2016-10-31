@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" title="ma-jolie-feuille-de-style"
+type="text/css" href="styles/style1.css" media="screen" />
+</head>
+<body>
+<div class="mybox">
+<p align="center">formulaire</p>
+</div>
+<p>
+<form method="post" action="traitement.php">
+  <label for="pseudo">Pseudo :</label>
+  <input type="text" name="pseudo" id="pseudo" autofocus/>
+  <br/>
+  <label for="pass">Mot de passe :</label>
+  <input type="password" name="pass" id="pass"/>
+<br/>
+<label for="mail">Mail :</label>
+<input type="email" name="mail" id="mail" required/>
+</p>
+<p>
+<label for="champ">Remarques :</label><br>
+<textarea name="champ" id="champ" rows="10" cols="50">Ecrivez ce que vous voulez...</textarea>
+</p>
+<p>
+  <label for="date">Saisissez la date choisie</label><br>
+  <input type="date" name="date" id="date"/>
+<p>
+<label for="essai">Notez la qualité de cette journée</label><br>
+<input type="range" name="essai" id="essai"/>
+</p>
+<p>Cochez ce que vous préférez faire durant vos temps de loisirs :</br>
+  <input type="checkbox" name="jouer" id="jouer"/>
+  <label for="jouer">Jouer</label>
+  <input type="checkbox" name="manger" id="manger"/>
+  <label for="manger">Manger</label><br>
+  <input type="checkbox" name="lire" id="lire"/>
+  <label for="lire">Lire</label>
+  <input type="checkbox" name="dormir" id="dormir"/>
+  <label for="dormir">Dormir</label>
+</p>
+<p>
+
+    Êtes-vous prêt à continuer ce formulaire ?<br>
+    <input type="radio" name="rep" value="Oui" "id="oui"/>
+    <label for="oui">Oui</label>
+    <input type="radio" name="rep" value="Non" "id="non"/>
+    <label for="non">Non</label>
+    <input type="radio" name="rep" value="peutetre" "id="peutetre"/>
+    <label for="peutetre">Peut-être</label>
+  </p>
+  <p>
+    <label for="pays">Dans quel pays habitez-vous ?</label>
+  <select name="pays" id="pays">
+    <option value="albanie">Albanie</option>
+    <option value="belgique">Belgique</option>
+    <option value="croatie">Croatie</option>
+    <option value="danemark">Danemark</option>
+    <option value="eire">Eire</option>
+    <option value="france">France</option>
+  </select>
+
+  </p>
+<input type="reset"/>
+<input type="submit"/><br>
+<br>
+
+<input type="image" src="img/paysage.png" width="20%" height="auto"/>
+
+
+
+
+
+</form>
+</p>
+</body>
+</html>
